@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="2.5"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/arbutus"
+        android:text="BOOK STORE"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1.5"
+        android:text="''The World of books''"
+        android:textColor="#3BFFF8"
+        android:textSize="20sp" />
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="6"
+        android:src="@drawable/book" />
+
+</LinearLayout>
+

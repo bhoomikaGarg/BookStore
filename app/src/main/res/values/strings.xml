@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">BookStore</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="favourites">Favourites</string>
+    <string name="profile">Profile</string>
+    <string name="about_app">About app</string>
+    <string name="navigation_drawer">Navigation Drawer</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home_fragment">Home Fragment</string>
+    <string name="favourites_fragment">Favourites Fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="about_app_fragment">About App Fragment</string>
+    <string name="add_to_favourites">Add To Favourites</string>
+    <string name="action_sort">Sort</string>
+    <string name="fav_aboutapp">
+        FAVOURITES: This section helps the reader to add and save his favourite book at a special place.</string>
+    <string name="description_aboutapp">
+        DESCRIPTION: This section provides the reader with the theme of the book. It includes all the necessary details of the book.</string>
+    <string name="dashboard_aboutapp">
+        DASHBOARD: The section contains the book\'s list. The book\'s list is displayed once a request is successful through volley.</string>
+    <string name="linkToFullBooks">
+        <a href="https://www.pdfdrive.com/ps-i-love-you-readers-stuffz-e6877926.html"> About the book </a>
+    </string>
+
+</resources>

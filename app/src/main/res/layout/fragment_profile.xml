@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragment.ProfileFragment"
+        android:background="#ffffff">
+
+
+    <RelativeLayout
+        android:id="@+id/llContent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+        android:background="#FDA0A0"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/txtWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:text="Welcome Users !"
+            android:textColor="#090909"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/txtWelcomeDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtWelcome"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            android:paddingRight="30dp"
+            android:text="Welcome to BookStore !"
+
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txtquote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtWelcomeDesc"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="I have a passion towards developing Android applications"
+            android:textAlignment="center"
+            android:textColor="#FAE7E7" />
+
+        <TextView
+            android:id="@+id/txtquoteauthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtquote"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/aguafina_script"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:text="''I do, I learn !''"
+            android:textColor="#100F0F"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/txtcreator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llContent"
+        android:layout_marginTop="20dp"
+        android:background="#CAC2C2"
+        android:text="About the Creator"
+        android:textAlignment="center"
+        android:textColor="#0E0E0E"
+        android:textStyle="bold" />
+
+
+    <RelativeLayout
+        android:id="@+id/llContent1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtcreator"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:background="#F4C1C1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <ImageView
+                android:id="@+id/imgCreatorimg"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:padding="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pic_bhoomika" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3.5">
+
+                <TextView
+                    android:id="@+id/txtMyName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="BHOOMIKA GARG"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtMyId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtMyName"
+                    android:drawableLeft="@drawable/ic_email"
+                    android:drawablePadding="0dp"
+                    android:padding="8dp"
+                    android:text=" bhoomika.garg.9@gmail.com"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/txtBookPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtMyId"
+                    android:drawableLeft="@drawable/ic_call"
+                    android:drawablePadding="0dp"
+                    android:padding="8dp"
+                    android:text=" 9711380819"
+                    android:textColor="#357a38"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/feedback"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtBookPrice"
+                    android:layout_marginLeft="4dp"
+                    android:drawableLeft="@drawable/ic_feedback"
+                    android:drawablePadding="0dp"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+       android:layout_below="@id/llContent1"
+        android:layout_centerHorizontal="true"
+
+        android:text=" © 2020 bhoomikaGarg . Privacy Policy " />
+
+
+</RelativeLayout>
